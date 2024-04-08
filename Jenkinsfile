@@ -5,6 +5,9 @@ pipeline {
       steps {
         echo 'Build the application'
       }
+      steps {
+        echo 'Test'
+      }
     }
   }
-}
+} 
