@@ -9,6 +9,9 @@ pipeline {
         echo 'Test'
         test success
       }
+      steps {
+        echo 'Deploy'
+      }  
     }
   }
 } 
